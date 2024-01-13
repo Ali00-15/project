@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    padding: 30px 18%;
+}
+
+header .home-continer {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    position: fixed;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    /* gap: 50px; */
+}
+.navbar a{
+    color: rgba(14, 167, 14, 0.774);
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+.navbar a:hover {
+    background-color: white;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.582);
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: rgba(14, 167, 14, 0.774);
+}
+
+.banner-continer {
+    width: 100%;
+    height: 100vh;
+    /* background-image: url('../HD-wallpaper-rami-malek-mr-robot-8k-rami-malek-mr-robot-tv-shows-deviantart-minimalism-minimalist.jpg'); */
+    background-color: black;
+    background-size: cover;
+    /* background-position: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-text h2 {
+    font-size: 100px;
+    margin-left: 405px;
+    margin-bottom: 20px;
+    color: rgba(14, 167, 14, 0.774);
+    line-height: 1.2;
+    font-family: 'Handjet', sans-serif;
+}
+.banner-text p {
+    color: rgba(14, 167, 14, 0.782);
+    font-size: 20px;
+    margin: 20px 0px;
+     
+}
+.banner_btn {
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    color: rgba(14, 167, 14, 0.774);
+    background-color: #ffffffaf;
+    
+}
+
+
+
+
+
